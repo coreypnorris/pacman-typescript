@@ -1,17 +1,26 @@
-<style>
-  body {
-    margin: 0;
-    background-color: black;
-    padding: 10px 20px;
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My TypeScript App</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: black;
+        padding: 10px 20px;
+        color: white;
+      }
 
-  .score-label {
-    color: white;
-    font-family: sans-serif;
-    font-size: 14px;
-    margin-bottom: 6px;
-  }
-</style>
-<p class="score-label"><span>Score: </span><span id="scoreEl">0</span></p>
-<canvas></canvas>
-<script src="index.js"></script>
+      .score-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pacman POC</h1>
+    <p class="score-label"><span>Score: </span><span id="scoreEl">0</span></p>
+    <canvas></canvas>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
